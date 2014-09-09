@@ -3,6 +3,8 @@ Documenting your tweetable services
 
 Starting from where [getting started with spring boot cli](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#getting-started-cli-example) leaves you... here is a quick start guide to documenting your _tweetable_ services.
 
+This example uses [swagger-springmvc](https://github.com/martypitt/swagger-springmvc)
+
 - Grab dependencies
 ```groovy
   @Grab(group='com.mangofactory', module='swagger-springmvc', version='0.8.8') 
