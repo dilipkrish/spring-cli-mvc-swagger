@@ -8,7 +8,7 @@ Starting from where [getting started with spring boot cli](http://docs.spring.io
   @Grab(group='com.mangofactory', module='swagger-springmvc', version='0.8.8') 
   @Grab(group='org.ajar', module='swagger-spring-mvc-ui', version='0.2') //Webjar to support swagger UI
 ```
-- Enable swagger support - added the following annotations
+- Enable swagger support - add the following annotations to the controller
 ```
 @com.mangofactory.swagger.plugin.EnableSwagger
 ```
@@ -16,6 +16,6 @@ Starting from where [getting started with spring boot cli](http://docs.spring.io
 ```bash
 spring run app.groovy
 ```
-- Documentation is available http://localhost:8080/index.html
+- Documentation should be available @ http://localhost:8080/index.html
 - Replace the stalk swagger end-point with http://localhost:8080/api-docs
 
